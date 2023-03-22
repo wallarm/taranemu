@@ -1,0 +1,17 @@
+data:
+    - - 1
+      - Roxette
+      - 1986
+    - - 2
+      - Scorpions
+      - 2015
+    - - 3
+      - Ace of Base
+      - 1993
+metadata:
+    - 0: id
+      1: unsigned
+    - 0: band_name
+      1: string
+    - 0: year
+      1: unsigned

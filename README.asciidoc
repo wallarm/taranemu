@@ -1,0 +1,29 @@
+= Tarantella: an ersatz Tarantool server
+
+== Start emulator
+
+After cloning repository, go to in it, where `Makefile` is located.
+
+Copy `.env.sample` to `.env` or issue `make init`:
+
+----
+make init
+----
+
+Change content file `.env` to appropriate values. After it, start tarantella emulator:
+
+----
+make run
+----
+
+To linting source files, issue:
+
+----
+make lint
+----
+
+It should install from sources *golangci-lint*, then run it on sources.
+
+== Testing emulator
+
+File link:console/console.go[console.go] is a stub for a testing scenario. It's used `go-tarantool` client library in console and able to be changed by your requirements.

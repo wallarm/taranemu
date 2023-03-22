@@ -1,0 +1,10 @@
+⚡IPROTO_DATA(0x30):
+    - - 1
+      - 'some item #1'
+    - - 2
+      - 'some item #2'
+⚡IPROTO_METADATA(0x32):
+    - 0: ID
+      1: integer
+    - 0: REMARK
+      1: string
